@@ -1,0 +1,40 @@
+.container {
+  width: 1170px;
+  height: 350px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.image {
+  height: 100%;
+  width: auto;
+  padding: 0 50px;
+  border-right: 1px solid #eee;
+}
+
+.container-text {
+  text-align: center;
+  padding: 40px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.name {
+  font-size: 1.3rem;
+}
+
+.band {
+  font-size: 1.3re,;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+.text {
+  font-size: 1.1rem;
+  text-align: justify;
+}

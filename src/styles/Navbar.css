@@ -1,0 +1,70 @@
+nav {
+  font-family: 'Roboto Mono', monospace;;
+  background: #0a0a23;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  height: 40px;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.input {
+  margin-left: 20px;
+  padding-right: 15%;
+  background-color: #3b3b4f;
+  color: #d0d0d5;
+  font-family: Lato, sans-serif;
+  padding-top: 3px;
+}
+.lupita {
+  height: 14px;
+  width: 14px;
+  padding: 0 5px;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 23px;
+  letter-spacing: -2px;
+  padding-right: 200px;
+}
+
+.guitar-container {
+  letter-spacing: 10px;
+  position: relative;
+}
+.guitar {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 25%;
+  left: 19%;
+  transform: rotate(-40deg);
+}
+
+.menu-container {
+  display: flex;
+  margin-right: 15px;
+}
+button {
+  background-color:#0a0a23;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  font-family: lato,sans-serif;
+  font-size: 18px;
+  margin-right: 10px;
+  width: 76px;
+  height: 32px;
+  font-family: Lato, sans-serif;
+}
+
+.corner {
+  width: 32px;
+  height: 32px;
+}
